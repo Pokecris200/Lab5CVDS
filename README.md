@@ -228,17 +228,17 @@ Los códigos de estado se definen en la sección 10 deRFC 2616. Puedes obtener l
 
 	curl www.httpbin.org
 	
-	![]()
+	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl.png)
 	
 Utilice ahora el parámetro -v y con el parámetro -i:
 
 	curl -v www.httpbin.org
 	
-	![]()
+	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-v.png)
 	
 	curl -i www.httpbin.org
 	
-	![]()
+	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-i.png)
 	
 ¿Cuáles son las diferencias con los diferentes parámetros?
 
@@ -246,11 +246,11 @@ La principal diferencia la podemos encontar justo al inicio despues de realizar 
 
 	curl -v www.httpbin.org
 	
-	![]()
+	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-v%202.png)
 	
 	curl -i www.httpbin.org
 	
-	![]()
+	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-i%202.png)
 	
 ### PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
