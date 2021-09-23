@@ -246,15 +246,19 @@ La principal diferencia la podemos encontar justo al inicio despues de realizar 
 
 	curl -v www.httpbin.org
 	
-	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-v%202.png)
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-v%202.png)
 	
 	curl -i www.httpbin.org
 	
-	![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-i%202.png)
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Comando%20curl%20-i%202.png)
 	
 ### PARTE II. - HACIENDO UNA APLICACIÓN WEB DINÁMICA A BAJO NIVEL.
 
+4. Compile y ejecute la aplicación en el servidor embebido Tomcat, a través de Maven con:
 
+	mvn tomcat7:run
+	
+![]()
 
 ## Bibliografia
 
