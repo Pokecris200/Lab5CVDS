@@ -266,15 +266,33 @@ La principal diferencia la podemos encontar justo al inicio despues de realizar 
 
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
 
-![]()
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20sin%20parametros.png)
 
 6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
 
-![]()
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20con%20parametros.png)
 
 7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
 
-![]()
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Adicion%20de%20dependencia%20gson.png)
+
+8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
+	**Path 1**
+
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20con%20path%201.png)
+
+	**Path 2**
+
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20con%20path%202.png)
+
+	**Path limite en el que la pigina muestra algo de contenido (200)**
+
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20con%20path%20limite.png)
+
+	**Path superior al limite (1454545)**
+
+![](https://github.com/Pokecris200/Lab5CVDS/blob/master/Recursos/Consulta%20con%20path%201454545.png)
 
 
 
